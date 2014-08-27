@@ -58,8 +58,10 @@ _This will also be italic_
 __This will also be bold__
 
 *You **can** combine them*
+</pre>
+
 ↑此处代码有失误,我这里混合使用"*"和"**"会出现错误.
-所以在下面的代码中,我实际使用的是"_"和"**"的结合</pre>
+所以在下面的代码中,我实际使用的是"_"和"**"的结合
 
 显示结果
 
@@ -83,7 +85,8 @@ _You **can** combine them_
 * Item 1
 * Item 2
   * Item 2a
-  * Item 2b</pre>
+  * Item 2b
+</pre>
 
 显示结果
 
@@ -99,23 +102,26 @@ _You **can** combine them_
 <pre>1. Item 1
 2. Item 2
 3. Item 3
-   * Item 3a
-   * Item 3b</pre>
+  * Item 3a
+  * Item 3b
+</pre>
 
 显示结果
 
 1. Item 1
 2. Item 2
 3. Item 3
-   * Item 3a
-   * Item 3b
+  * Item 3a
+  * Item 3b
 
 ####链接
 
 语法格式
 
-<pre>http://github.com - automatic!
-[GitHub](http://github.com)</pre>
+<pre>
+http://github.com - automatic!
+[GitHub](http://github.com)
+</pre>
 
 显示结果
 
@@ -123,10 +129,14 @@ http://github.com - automatic!
 [GitHub](http://github.com)
 
 ####引用
+
 语法格式
-<pre>As Kanye West said:
+
+<pre>
+As Kanye West said:
 > We're living the future so
 > the present is our past.
+
 </pre>
 
 显示结果
@@ -158,13 +168,15 @@ Github使用了Markdown的独特版本,这使它具备了一些特性.
 
 语法格式
 
-<pre>```javascript
+<pre>
+```javascript
 function fancyAlert(arg) {
   if(arg) {
     $.facebox({div:'#foo'})
   }
 }
-```</pre>
+```
+</pre>
 
 显示结果
 
