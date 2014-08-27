@@ -150,8 +150,10 @@ As Kanye West said:
 
 **语法格式**
 
-<pre>I think you should use an
-`<addr>` element here instead.</pre>
+<pre>
+I think you should use an
+`<addr>` element here instead.
+</pre>
 
 **显示结果**
 
