@@ -21,8 +21,86 @@ Markdown是一款基于Github平台的、简单易用的规范文章格式的语
 * 以<code>.md</code>和<code>.markdown</code>为扩展名的文件中
 
 ###例子
-<a href="" style="display: inline-block;padding: 2px 12px 4px 12px;color: #fff;background: #4183C4;border-radius: 20px;">Text</a>
+<a href="# ">Text</a>
 
 <pre id="text">It's very easy to make some words **bold** and other words *italic* with 
 Markdown. You can even [link to Google!](http://google.com).
 </pre>
+
+It's very easy to make some words **bold** and other words *italic* with 
+Markdown. You can even [link to Google!](http://google.com).
+
+###语法导引
+
+下面的语法你可以在Github的任意地方使用
+
+###Headers
+**语法格式**
+<pre># This is an h1 tag
+## This is an h2 tag
+###### This is an h6 tag
+</pre>
+
+**显示结果**
+
+# This is an h1 tag
+## This is an h2 tag
+###### This is an h6 tag
+
+####Emphasis
+**语法格式**
+<pre>*This text will be italic*
+_This will also be italic_
+
+**This text will be bold**
+__This will also be bold__
+
+*You **can** combine them*
+↑此处代码有失误,我这里混合使用"*"和"**"会出现错误.
+所以在下面的代码中,我实际使用的是"_"和"**"的结合</pre>
+
+**显示结果**
+
+*This text will be italic*
+_This will also be italic_
+
+**This text will be bold**
+__This will also be bold__
+
+_You **can** combine them_
+
+####Lists
+#####无序
+**语法格式**
+<pre>
+* Item 1
+* Item 2
+  * Item 2a
+  * Item 2b</pre>
+**显示结果**
+* Item 1
+* Item 2
+  * Item 2a
+  * Item 2b
+
+####有序
+**语法格式**
+<pre>1. Item 1
+2. Item 2
+3. Item 3
+   * Item 3a
+   * Item 3b</pre>
+**显示结果**
+1. Item 1
+2. Item 2
+3. Item 3
+   * Item 3a
+   * Item 3b
+
+####图片
+**语法格式**
+<pre>![GitHub Logo](http://imgcache.chinayes.com/cnews/20100324/201003240917356175103.jpg)
+Format: ![Alt Text](url)</pre>
+**显示结果**
+
+[GitHub Logo](http://imgcache.chinayes.com/cnews/20100324/201003240917356175103.jpg)
