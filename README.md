@@ -35,13 +35,15 @@ Markdown. You can even [link to Google!](http://google.com).
 下面的语法你可以在Github的任意地方使用
 
 ###Headers
-**语法格式**
+
+语法格式
+
 <pre># This is an h1 tag
 ## This is an h2 tag
 ###### This is an h6 tag
 </pre>
 
-**显示结果**
+显示结果
 
 # This is an h1 tag
 ## This is an h2 tag
@@ -70,6 +72,7 @@ __This will also be bold__
 _You **can** combine them_
 
 ####Lists
+
 #####无序
 
 语法格式
@@ -79,7 +82,7 @@ _You **can** combine them_
 * Item 2
   * Item 2a
   * Item 2b</pre>
-  * 
+
 显示结果
 
 * Item 1
@@ -96,7 +99,6 @@ _You **can** combine them_
 3. Item 3
    * Item 3a
    * Item 3b</pre>
-   * 
 
 显示结果
 
@@ -119,10 +121,8 @@ http://github.com - automatic!
 [GitHub](http://github.com)
 
 ####引用
-<pre>As Kanye West said:
-
 语法格式
-
+<pre>As Kanye West said:
 > We're living the future so
 > the present is our past.
 </pre>
