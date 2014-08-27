@@ -205,4 +205,5 @@ Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
 
 ######总结说来,Markdown用起来简单,但是要注意空格和分行,特别是在与html代码结合使用的时候.
-_我在上面的例子中,由于<pre></pre>没有换行,出了不少错误_
+_我在上面的例子中,使用pre标签包裹Markdown的时候没有换行,出了不少错误_
+**最后的最后,我也是初学者,希望和新手一起进步!**
