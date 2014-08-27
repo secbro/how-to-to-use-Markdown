@@ -85,22 +85,70 @@ _You **can** combine them_
 
 ####有序
 **语法格式**
+
 <pre>1. Item 1
 2. Item 2
 3. Item 3
    * Item 3a
    * Item 3b</pre>
+   * 
 **显示结果**
+
 1. Item 1
 2. Item 2
 3. Item 3
    * Item 3a
    * Item 3b
 
-####图片
+####链接
 **语法格式**
-<pre>![GitHub Logo](http://imgcache.chinayes.com/cnews/20100324/201003240917356175103.jpg)
-Format: ![Alt Text](url)</pre>
+<pre>http://github.com - automatic!
+[GitHub](http://github.com)</pre>
 **显示结果**
+http://github.com - automatic!
+[GitHub](http://github.com)
 
-[GitHub Logo](http://imgcache.chinayes.com/cnews/20100324/201003240917356175103.jpg)
+####引用
+<pre>As Kanye West said:
+**语法格式**
+> We're living the future so
+> the present is our past.
+</pre>
+**显示结果**
+As Kanye West said:
+
+> We're living the future so
+> the present is our past.
+
+####Inline code
+**语法格式**
+<pre>I think you should use an
+`<addr>` element here instead.</pre>
+**显示结果**
+I think you should use an
+`<addr>` element here instead.
+
+####GitHub Flavored Markdown
+
+Github使用了Markdown的独特版本,这使它具备了一些特性.
+
+其中的一些特性只在只有在Issues和Pull Requests的描述和评论中有效.
+
+####高亮文字
+**语法格式**
+<pre>```javascript
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+```</pre>
+**显示结果**
+```javascript
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+```
+####表格
