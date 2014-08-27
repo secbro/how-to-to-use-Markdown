@@ -48,7 +48,7 @@ Markdown. You can even [link to Google!](http://google.com).
 ###### This is an h6 tag
 
 ####Emphasis
-**语法格式**
+语法格式
 <pre>*This text will be italic*
 _This will also be italic_
 
@@ -59,7 +59,7 @@ __This will also be bold__
 ↑此处代码有失误,我这里混合使用"*"和"**"会出现错误.
 所以在下面的代码中,我实际使用的是"_"和"**"的结合</pre>
 
-**显示结果**
+显示结果
 
 *This text will be italic*
 _This will also be italic_
@@ -71,20 +71,25 @@ _You **can** combine them_
 
 ####Lists
 #####无序
-**语法格式**
+
+语法格式
+
 <pre>
 * Item 1
 * Item 2
   * Item 2a
   * Item 2b</pre>
-**显示结果**
+  * 
+显示结果
+
 * Item 1
 * Item 2
   * Item 2a
   * Item 2b
 
 ####有序
-**语法格式**
+
+语法格式
 
 <pre>1. Item 1
 2. Item 2
@@ -92,7 +97,8 @@ _You **can** combine them_
    * Item 3a
    * Item 3b</pre>
    * 
-**显示结果**
+
+显示结果
 
 1. Item 1
 2. Item 2
@@ -101,30 +107,42 @@ _You **can** combine them_
    * Item 3b
 
 ####链接
-**语法格式**
+
+语法格式
+
 <pre>http://github.com - automatic!
 [GitHub](http://github.com)</pre>
-**显示结果**
+
+显示结果
+
 http://github.com - automatic!
 [GitHub](http://github.com)
 
 ####引用
 <pre>As Kanye West said:
-**语法格式**
+
+语法格式
+
 > We're living the future so
 > the present is our past.
 </pre>
-**显示结果**
+
+显示结果
+
 As Kanye West said:
 
 > We're living the future so
 > the present is our past.
 
 ####Inline code
-**语法格式**
+
+语法格式
+
 <pre>I think you should use an
 `<addr>` element here instead.</pre>
-**显示结果**
+
+显示结果
+
 I think you should use an
 `<addr>` element here instead.
 
@@ -135,7 +153,9 @@ Github使用了Markdown的独特版本,这使它具备了一些特性.
 其中的一些特性只在只有在Issues和Pull Requests的描述和评论中有效.
 
 ####高亮文字
-**语法格式**
+
+语法格式
+
 <pre>```javascript
 function fancyAlert(arg) {
   if(arg) {
@@ -143,7 +163,9 @@ function fancyAlert(arg) {
   }
 }
 ```</pre>
-**显示结果**
+
+显示结果
+
 ```javascript
 function fancyAlert(arg) {
   if(arg) {
