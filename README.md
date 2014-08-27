@@ -1,7 +1,7 @@
 
 
 
-怎样使用基于Github平台的Markdown语言
+怎样使用Markdown
 ======================
 
 Markdown是一款基于Github平台的、简单易用的规范文章格式的语言。
