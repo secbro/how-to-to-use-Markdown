@@ -190,3 +190,19 @@ function fancyAlert(arg) {
 }
 ```
 ####表格
+**语法格式**
+<pre>
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+</pre>
+**显示结果**
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+######总结说来,Markdown用起来简单,但是要注意空格和分行,特别是在与html代码结合使用的时候.
+_我在上面的例子中,由于<pre></pre>没有换行,出了不少错误_
