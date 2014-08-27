@@ -4,6 +4,8 @@
 怎样使用Markdown
 ======================
 
+###需要更多信息的同学,可以查阅:[英文原文](https://guides.github.com/features/mastering-markdown/)
+
 Markdown是一款基于Github平台的、简单易用的规范文章格式的语法。
 
 
